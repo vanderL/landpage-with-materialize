@@ -33,3 +33,11 @@
     max-width: 150%;
     margin-top: 10px;
 }
+
+.text-white {
+    color: #FFFFFF !important;
+}
+
+.pad-section {
+    padding: 20px 0;
+}
