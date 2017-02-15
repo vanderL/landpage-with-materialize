@@ -4,9 +4,9 @@ MaterializeCSS é um framework CSS que traz o conceito do materials design adota
 
 ### Oque foi desenvolvido.
 Esse projeto será desenvolver uma landpage utilizando o materialize do inicio ao fim.
-- Header
-- Call to Action
-- Features
+- Header - OK
+- Call to Action - OK
+- Features - OK
 - FAQ
 - Prices and Condition
 - Contact
