@@ -1,3 +1,15 @@
+.text-white {
+    color: #FFFFFF !important;
+}
+
+.text-black {
+    color: #676767 !important;
+}
+
+.pad-section {
+    padding: 20px 0;
+}
+
 .header .brand-logo{
   padding-left: 20px;
   font-weight: 100;
@@ -28,16 +40,84 @@
     font-size: 2.85rem;
     color: #ffffff;
   }
-
+  .features {
+      margin-top: -20px;
+  }
   .jumbotron .img-desc {
     max-width: 150%;
     margin-top: 10px;
 }
 
-.text-white {
-    color: #FFFFFF !important;
+
+.faq h2 {
+    font-weight: 100;
+}
+.faq .collapsible {
+    border: 0;
+    box-shadow: none;
+}
+.faq .collapsible li {
+    padding: 10px 0;
+}
+.faq .collapsible-header {
+    font-size: 1.48rem;
+    color: #d50000;
+    cursor: pointer;
+}
+.faq .collapsible-header i {
+    color: #d50000;
+}
+.faq .collapsible-body {
+    font-size: 1.28rem;
 }
 
-.pad-section {
-    padding: 20px 0;
+.plans-prices {
+    background: url('https://verdict4u.files.wordpress.com/2016/09/google-now-wallpaper-1.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    min-height: 100px;
+}
+.plans-prices h2 {
+    font-weight: 100;
+}
+.plans-prices .card .card-image .card-title {
+    width:  100%;
+    position: relative;
+}
+.plans-prices .card .card-content .collection {
+    border:  none;
+}
+.plans-prices .card .card-content .collection .collection-item {
+    border:  none;
+}
+.plans-prices .card .card-content .collection .collection-item i {
+    color: #009315;
+}
+.plans-prices .card .card-action {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.plans-prices .card {
+    min-height: 550px;
+}
+.plans-prices .prices {
+    position: relative;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.42rem;
+    padding: 20px 0 0 0;
+}
+.plans-prices .prices sup {
+    font-size: 2.42rem;
+    line-height: 1.6em;
+    color:  #ffffff;
+}
+.plans-prices .prices sub {
+    font-weight: 100;
+    font-size: 2.14rem;
+    line-height: 1.6em;
+    top: 0;
 }
