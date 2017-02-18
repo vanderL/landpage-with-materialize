@@ -121,3 +121,27 @@
     line-height: 1.6em;
     top: 0;
 }
+
+.news h2 {
+    font-weight: 100;
+}
+.news .btn-action {
+    margin-top: 25px;
+}
+.contact h2 {
+    font-weight: 100;
+}
+
+.footer {
+    padding: 10px;
+}
+.footer .row {
+    margin-bottom: 0 !important;
+}
+
+.footer .social .collection {
+    border:  none;
+}
+.footer .social .collection .collection-item {
+    display: inline;
+}
