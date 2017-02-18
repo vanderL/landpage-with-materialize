@@ -181,7 +181,89 @@
             </div>
         </section>
 
+
+        <section class="news indigo pad-section">
+       <div class="container">
+           <div class="row">
+               <div class="col s12">
+                   <h2 class="text-white pad-section">News letter</h2>
+               </div>
+               <div class="col s5">
+                   <p class="text-white">This is my new letter, please enter your email to subscribe</p>
+               </div>
+               <div class="col s5">
+                   <form>
+                       <div class="input-field">
+                           <input type="email" name="email" class="text-white">
+                           <label for="email">Email</label>
+                       </div>
+                   </form>
+               </div>
+               <div class="col s2 btn-action">
+                   <button class="btn">Sub</button>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
+   <section class="contact blue-grey darken-4 pad-section">
+       <div class="container">
+           <div class="row">
+               <div class="col s12">
+                   <h2 class="text-white pad-section">Contact us</h2>
+               </div>
+
+               <form class="col s6">
+                   <div class="row">
+                       <div class="input-field">
+                           <input type="text" name="name">
+                           <label for="name">Enter your name</label>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="input-field">
+                           <input type="email" name="email">
+                           <label for="email">Enter your email</label>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="input-field">
+                           <textarea name="" id="" cols="30" rows="10" class="materialize-textarea"></textarea>
+                           <label for="email">Enter your message</label>
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="input-field">
+                           <input type="submit" class="btn red" value="Send">
+                       </div>
+                   </div>
+               </form>
+
+               <div class="col s6">
+                   <div class="carousel carousel-slider center" data-indicators="true">
+                       <div class="carousel-item blue-grey darken-4 text-white">
+                           <h2>Contact by social networks</h2>
+                           <p class="text-white">Our social network</p>
+                       </div>
+                       <div class="carousel-item blue-grey darken-4 text-white">
+                           <h2>Contact by social networks</h2>
+                           <p class="text-white">Our social network</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+    <script>
+       $('.carousel.carousel-slider').carousel({
+           fullWidth: true
+       });
+   </script>
   </body>
 </html>
